@@ -1,0 +1,5 @@
+image: hexpm/elixir:1.11.3-erlang-23.2.4-ubuntu-focal-20201008
+
+tasks:
+  - init: mix deps.get
+    command: " iex -S mix"
